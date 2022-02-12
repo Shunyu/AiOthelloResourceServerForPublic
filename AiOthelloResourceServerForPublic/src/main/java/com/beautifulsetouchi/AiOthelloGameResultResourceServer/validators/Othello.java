@@ -4,6 +4,15 @@ import com.beautifulsetouchi.AiOthelloGameResultResourceServer.models.BoardIndex
 import com.google.gson.Gson;
 
 
+/**
+ * オセロの盤面のデータ、およびオセロのルールを保持しているクラス
+ * 
+ * 現在の盤面と現在のplayerのもとで、特定のオセロの手を打った際に、
+ * 変化した後の盤面の状態を計算する際や、
+ * ゲームオーバーであるか確認する際にも利用する。
+ * @author shunyu
+ *
+ */
 public class Othello {
 	
     private static final int BLACK = 1;

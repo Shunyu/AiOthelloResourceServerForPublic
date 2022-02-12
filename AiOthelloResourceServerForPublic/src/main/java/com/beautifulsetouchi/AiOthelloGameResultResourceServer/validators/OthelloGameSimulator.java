@@ -2,6 +2,11 @@ package com.beautifulsetouchi.AiOthelloGameResultResourceServer.validators;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * 一手後の盤面や、盤面がゲームオーバーであるか否かの判定を行うクラス
+ * @author shunyu
+ *
+ */
 @Component
 public class OthelloGameSimulator {
 

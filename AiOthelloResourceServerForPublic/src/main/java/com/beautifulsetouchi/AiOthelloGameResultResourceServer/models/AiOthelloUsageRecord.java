@@ -8,6 +8,11 @@ import javax.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * AIオセロの利用状況をデータベースに登録する際に、必要となる情報を格納するentityクラス
+ * @author shunyu
+ *
+ */
 @Getter
 @Setter
 @Entity

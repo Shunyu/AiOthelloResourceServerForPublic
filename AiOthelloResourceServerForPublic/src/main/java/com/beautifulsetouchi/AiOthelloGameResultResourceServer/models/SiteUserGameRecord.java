@@ -8,6 +8,12 @@ import javax.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * データベースに格納している対戦成績のデータを抽出したり、
+ * データベースに新規ユーザーを0勝0負0分で格納したりする際に利用するクラス
+ * @author shunyu
+ *
+ */
 @Getter
 @Setter
 @Entity

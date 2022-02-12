@@ -11,6 +11,11 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.jwt.Jwt;
 
+/**
+ * 認可サーバーであるKeycloakにて指定されたrole名と、リソースサーバーで使用されるrole名の対応関係をつけるために使用したクラス
+ * @author shunyu
+ *
+ */
 public class KeycloakRoleConverter implements Converter<Jwt, Collection<GrantedAuthority>> {
 
 	@Override

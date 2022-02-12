@@ -1,5 +1,10 @@
 package com.beautifulsetouchi.AiOthelloGameResultResourceServer.models;
 
+/**
+ * オセロの盤面のマスの位置の情報を示すクラス
+ * @author shunyu
+ *
+ */
 public class BoardIndex {
     private int verticalIndex;
     private int horizontalIndex;

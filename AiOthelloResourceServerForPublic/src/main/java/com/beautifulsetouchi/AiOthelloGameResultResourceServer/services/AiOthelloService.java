@@ -9,6 +9,12 @@ import org.springframework.web.client.RestTemplate;
 import com.beautifulsetouchi.AiOthelloGameResultResourceServer.models.AiOthelloRequestResource;
 import com.beautifulsetouchi.AiOthelloGameResultResourceServer.models.AiOthelloResponseResource;
 
+/**
+ * 最適手を取得するリクエストが来た際に、
+ * AIオセロの機能を提供する別サーバーにリクエストを仲介する際に利用するクラス
+ * @author shunyu
+ *
+ */
 @Service 
 public class AiOthelloService {
 

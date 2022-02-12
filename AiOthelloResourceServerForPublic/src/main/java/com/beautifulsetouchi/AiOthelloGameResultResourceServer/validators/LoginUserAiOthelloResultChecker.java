@@ -13,6 +13,11 @@ import com.beautifulsetouchi.AiOthelloGameResultResourceServer.models.AiOthelloU
 import com.beautifulsetouchi.AiOthelloGameResultResourceServer.models.GameSituation;
 import com.beautifulsetouchi.AiOthelloGameResultResourceServer.repositories.AiOthelloUsageRecordRepository;
 
+/**
+ * 一連の盤面の推移が妥当であるかどうか（チートされていないか）確認する際に利用するクラス
+ * @author shunyu
+ *
+ */
 @Component
 public class LoginUserAiOthelloResultChecker {
 	
