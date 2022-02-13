@@ -1,5 +1,7 @@
 # AiOthelloResourceServerForPublic
 AI機能搭載オセロで、OAuth2.0対応のSpring Securityリソースサーバーのソースコード（公開版；セキュリティの都合で一部マスキング済み）。以下のURLでサービスを公開中。https://beautiful-setouchi.com/othello/homepage
+<br>
+このレポジトリは、「アーキテクチャの全体像」に登場するコンポーネントのうち、右下の「OAuth2.0 リソースサーバー」部分に相当している。
 # アーキテクチャの全体像
 ![アーキテクチャの全体像](https://user-images.githubusercontent.com/12855414/153738865-2d1ea016-5064-4c75-9b80-ec4d091f714a.JPG)
 # Webブラウザをインターフェースとして、Webアプリを利用する際に使うコンポーネント（未ログイン時）
