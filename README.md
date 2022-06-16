@@ -1,5 +1,5 @@
 # AiOthelloResourceServerForPublic
-AI機能搭載オセロで、OAuth2.0対応のSpring Securityリソースサーバーのソースコード（公開版；セキュリティの都合で一部マスキング済み）。以下のURLでサービスを公開中。https://beautiful-setouchi.com/othello/homepage
+AI機能搭載オセロで、OAuth2.0対応のSpring Securityリソースサーバーのソースコード（公開版；セキュリティの都合で一部マスキング済み）。円安によるコスト増を踏まえて、AWS上でのサービスの公開は停止中。
 <br>
 このレポジトリは、「アーキテクチャの全体像」に登場するコンポーネントのうち、右下の「OAuth2.0 リソースサーバー」部分に相当している。
 # アーキテクチャの全体像
